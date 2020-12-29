@@ -1,4 +1,4 @@
-sec=46979
+sec = int(input())
 min=0
 min1=0
 hour=0
@@ -11,8 +11,4 @@ while True:
 	if min>=60:
 		min=0
 		min1+=1
-	print(min1)
-	if min1>=60:
-		min1=0
-		hour+=1
-print(hour,":",min1,":",sec)
+print(min1,":",min,":",sec,sep="")
